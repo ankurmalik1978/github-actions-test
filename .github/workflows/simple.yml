@@ -8,6 +8,8 @@ jobs:
     steps:
       - name: echo a string
         run: echo "Hello World from Gtihub Actions"
+      - name: echo another string
+        run: echo "Hello World again!! from Gtihub Actions"
       - name: Multiline script
         run: |
           node -v
